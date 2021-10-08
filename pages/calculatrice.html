@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculatrice</title>
+        <link rel="stylesheet" href="../styles/calculatrice.style.css">
+        <script src="../scripts/calculatrice.js" async></script>
+    </head>
+    <body>
+        <ul>
+            <li><a href="./switch-images.html">Switch d'images</a></li>
+            <li><a href="./calculatrice.html">Calculatrice</a></li>
+            <li><a href="./juste-prix.html">Juste Prix</a></li>
+            <li><a href="./morpion.html">Morpion</a></li>
+        </ul>
+
+        <div id="box-calc">
+            <div class="box-bouton">
+                <div class="square" onclick="ajout1()">
+                    <h1>1</h1>
+                </div>
+                <div class="square" onclick="ajout2()">
+                    <h1>2</h1>
+                </div>
+                <div class="square" onclick="ajout3()">
+                    <h1>3</h1>
+                </div>
+            </div>
+            <div class="box-bouton">
+                <div class="square" onclick="ajout4()">
+                    <h1>4</h1>
+                </div>
+                <div class="square" onclick="ajout5()">
+                    <h1>5</h1>
+                </div>
+                <div class="square" onclick="ajout6()">
+                    <h1>6</h1>
+                </div>
+            </div>
+            <div class="box-bouton">
+                <div class="square" onclick="ajout7()">
+                    <h1>7</h1>
+                </div>
+                <div class="square" onclick="ajout8()">
+                    <h1>8</h1>
+                </div>
+                <div class="square" onclick="ajout9()">
+                    <h1>9</h1>
+                </div>
+            </div>
+            <div class="box-bouton">
+                <div class="square" onclick="ajout0()">
+                    <h1>0</h1>
+                </div>
+                <div class="square" onclick="calcul()">
+                    <h1>=</h1>
+                </div>
+                <div class="square" onclick="clearNumber()">
+                    <h1>CE</h1>
+                </div>
+            </div>
+            <div class="box-bouton">
+                <div class="little-square" onclick="ajoutPlus()">
+                    <h2>+</h2>
+                </div>
+                <div class="little-square" onclick="ajoutMoins()">
+                    <h2>-</h2>
+                </div>
+                <div class="little-square" onclick="ajoutFois()">
+                    <h2>*</h2>
+                </div>
+                <div class="little-square" onclick="ajoutDiv()">
+                    <h2>/</h2>
+                </div>
+            </div>
+            <div class="box-bouton">
+                <div class="rectangle">
+                    <h2 id="nbr1"></h2>
+                </div>
+                <div class="absquare">
+                    <h2 id="operateur"></h2>
+                </div>
+                <div class="rectangle">
+                    <h2 id="nbr2"></h2>
+                </div>
+            </div>
+            <div id="result-square">
+                <h1 id="result"></h1>
+            </div>
+        </div>
+        
+
+    </body>
+</html>

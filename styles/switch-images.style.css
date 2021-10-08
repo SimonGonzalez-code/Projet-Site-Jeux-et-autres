@@ -24,6 +24,17 @@ li a:hover {
     background-color: #111;
 }
 
+
 body {
     background-color: aliceblue;
+}
+
+.box-image{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dim-image {
+    width: 500px;
+    height: 350px;
 }
