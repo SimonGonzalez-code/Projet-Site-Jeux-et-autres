@@ -48,11 +48,27 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-
 }
 
 .rectangle {
     height: 150px;
     width: 150px;
     background-color: aliceblue;
+}
+
+.rectangle:hover{
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+#danse-victoire{
+    display: none;
+}
+
+#baby-bored{
+    display: none;
 }
