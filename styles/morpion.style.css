@@ -29,6 +29,11 @@ body {
     background-color: aliceblue;
 }
 
+#box{
+    display: flex;
+    flex-direction: row;
+}
+
 #grille-jeu {
     margin: 100px;
     height: 474px;
@@ -66,9 +71,11 @@ h1{
 }
 
 #danse-victoire{
+    margin-top: 100px;
     display: none;
 }
 
 #baby-bored{
+    margin-top: 100px;
     display: none;
 }
