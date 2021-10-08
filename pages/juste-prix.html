@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Le Juste Prix</title>
+        <link rel="stylesheet" href="../styles/juste-prix.style.css">
+        <script src="../scripts/juste-prix.js" async></script>
+    </head>
+    <body>
+        <ul>
+            <li><a href="./switch-images.html">Switch d'images</a></li>
+            <li><a href="./calculatrice.html">Calculatrice</a></li>
+            <li><a href="./juste-prix.html">Juste Prix</a></li>
+            <li><a href="./morpion.html">Morpion</a></li>
+        </ul>
+        <div id="presentation">
+            <h1>BIENVENUE AU JUSTE PRIX</h1>
+            <h2>Je souhaite chercher un nombre entre 0 et <input id="num-myst" class="size-number" type="text"></h2>
+            <h2 id="rectangle-commencer" onclick="commencerJeu()">COMMENCER</h2>
+        </div>
+        <div id="jeu">
+            <h2>Tentative N°<h2 id="num-tent">1</h2></h2>
+            <h2>Saisir un nombre : <input id="essai" class="size-number" type="number"></h2>
+            <h2 id="rectangle-essayer" onclick="essaiNombre()">ESSAYER</h2>
+        </div>
+    </body>
+</html>

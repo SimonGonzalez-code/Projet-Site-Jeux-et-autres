@@ -28,3 +28,45 @@ li a:hover {
 body {
     background-color: aliceblue;
 }
+
+#rectangle-commencer {
+    margin-left: 750px;
+    height:70px;
+    width: 420px;
+    background-color:green;
+    font-size: 60px;
+}
+
+#rectangle-essayer {
+    margin-left: 750px;
+    height:70px;
+    width: 400px;
+    background-color:green;
+    font-size: 60px;
+}
+
+#rectangle:hover {
+    background-color: greenyellow;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+#presentation {
+    display: block;
+}
+
+#jeu {
+    display: none;
+}
+
+.size-number {
+    font-size: 35px;
+}
